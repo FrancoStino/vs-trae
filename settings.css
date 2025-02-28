@@ -1,4 +1,5 @@
 /* https://raw.githubusercontent.com/FrancoStino/vs-trae/refs/heads/main/settings.css */
+/* https://raw.githubusercontent.com/FrancoStino/vs-trae/refs/heads/main/settings.css */
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab .tab-label {
     line-height: 32px !important;
 }
@@ -54,12 +55,13 @@
     border-radius: 0 0 0.5rem 0.5rem;
 }
 
-.tabs-and-actions-container{
-align-items: center;
+.tabs-and-actions-container {
+    align-items: center;
     margin: 0.5rem;
 }
+
 .tabs-and-actions-container:has(.tab.active:first-child) {
-    /* box-shadow: -20px 5px 0 0 #ed2020; */   
+    /* box-shadow: -20px 5px 0 0 #ed2020; */
 }
 
 .extensions-viewlet > .extensions .message-container {
@@ -394,6 +396,7 @@ div#terminal {
     top: 0;
     left: 0;
     backdrop-filter: blur(8px);
+    z-index: 10;
 }
 
 /* Command palette's input box placeholder. */
