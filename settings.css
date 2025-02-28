@@ -232,18 +232,17 @@ li.action-item.icon:hover {
 
 .monaco-workbench .monaco-list-rows {
   border-radius: 0 0 0.5rem 0.5rem;
-  width: 97% !important;
   padding-bottom: 0.5rem;
 }
 
 li.action-item.icon {
-  transition: all 0.15s;
-  opacity: 0.2;
-  margin-left: 0.3rem;
-  padding-left: 0.05rem;
-  margin-top: 0.2rem;
+    transition: all 0.15s;
+    opacity: 0.8;
+    /* margin-left: 0.3rem; */
+    /* padding-left: 0.05rem; */
+    /* margin-top: 0.2rem; */
+    margin: 0.2rem;
 }
-
 .monaco-pane-view .pane > .pane-header {
   padding: 0 6px;
 }
