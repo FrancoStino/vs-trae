@@ -215,17 +215,6 @@ div#terminal {
     margin-bottom: 16px !important;
 }
 
-#command-blur {
-    position: absolute !important;
-    width: 100% !important;
-    height: 100% !important;
-    background: #0000003b !important;
-    top: 0 !important;
-    left: 0 !important;
-    backdrop-filter: blur(10px) !important;
-    z-index: 99 !important;
-}
-
 /* Command palette's input box placeholder. */
 .monaco-inputbox input::placeholder {
     color: rgba(255, 255, 255, 0.3) !important;
