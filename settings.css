@@ -574,3 +574,7 @@ div#terminal {
     background-size: contain !important;
     width: 60% !important;
 }
+
+.monaco-workbench .activitybar.bordered:before {
+   display:none;
+}
