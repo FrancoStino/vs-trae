@@ -16,6 +16,7 @@
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.active {
     background-color: #2e2e2e !important;
+    --tab-border-bottom-color: none !important;
 }
 
 .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.active.tab-border-top > .tab-border-top-container, .monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab.selected.tab-border-top > .tab-border-top-container {
