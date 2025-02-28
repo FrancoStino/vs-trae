@@ -54,10 +54,12 @@
     border-radius: 0 0 0.5rem 0.5rem;
 }
 
-.tabs-and-actions-container:has(.tab.active:first-child) {
-    /* box-shadow: -20px 5px 0 0 #ed2020; */
-    align-items: center;
+.tabs-and-actions-container{
+align-items: center;
     margin: 0.5rem;
+}
+.tabs-and-actions-container:has(.tab.active:first-child) {
+    /* box-shadow: -20px 5px 0 0 #ed2020; */   
 }
 
 .extensions-viewlet > .extensions .message-container {
